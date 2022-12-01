@@ -1,0 +1,38 @@
+
+.single-category {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    justify-content: center;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+    &:active,&:focus{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(205, 157, 229) 100%);
+    }
+    .category-icon, h5 {
+        font-size: 20px;
+    }
+    h5{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .single-category{
+        width: 70px;
+        height: 70px;
+        h5 {
+            display: none;
+        }
+        .category-icon  {
+            font-size: 20px;
+        }
+    }
+
+}

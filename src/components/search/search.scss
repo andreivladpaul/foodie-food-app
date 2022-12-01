@@ -1,0 +1,44 @@
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 4;
+    color: white;
+    font-weight: 900;
+}
+.form {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #CC3CCE;
+    background: -moz-linear-gradient(left, #CC3CCE 0%, #7112A4 0%, #C54039 100%);
+    background: -webkit-linear-gradient(left, #CC3CCE 0%, #7112A4 0%, #C54039 100%);
+    background: linear-gradient(to right, #CC3CCE 0%, #7112A4 0%, #C54039 100%);
+    span {
+        position: absolute;
+        color: black;
+        top: 50%;
+        left: 34%;
+        transform: translate(100%, -50%);
+    }
+    .search__form {
+        border: none;
+        width: 30%;
+        font-size: 0.5rem;
+        color: rgb(0, 0, 0);
+        padding: 5px 50px;
+        border: none;
+        border-radius: 1rem;
+        outline: none;
+    }
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        font-size: 15px;
+        transform: translate(100%, -50%);
+        color: #000;
+    }
+}
